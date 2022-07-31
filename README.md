@@ -32,3 +32,25 @@ call _printf
 ```
 we need to select these two lines
 ![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view2.png?raw=true)
+
+and select `edit`->`plugins`->`patch_instruction`
+![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view3.png?raw=true)
+
+it will pop out a new windows that contains the original assembly of select section
+![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view4.png?raw=true)
+
+we can edit the assembly on the windows (i write a assembly that print out `hello world !\n`)
+```asm
+mov rax,0xa2120646c72
+push rax
+mov rax,0x6f77206f6c6c6568
+push rax
+mov rax,1
+mov rdi,1
+mov rsi,rsp
+mov rdx,14
+syscall
+pop rax
+pop rax
+```
+![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view5.png?raw=true)
