@@ -10,7 +10,7 @@
 ---
 ## example
 
-we get a file name `source` , it's a x86_64's elf file
+we get a file name `source` , it's a x86_64 elf file
 ```c
 // source.c
 #include <stdio.h>
