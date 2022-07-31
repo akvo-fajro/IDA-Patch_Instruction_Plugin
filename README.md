@@ -21,3 +21,5 @@ int main(){
     return 0;
 }
 ```
+
+the view of ida when we pull the `source` to ida
