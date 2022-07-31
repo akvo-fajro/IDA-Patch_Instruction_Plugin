@@ -54,3 +54,6 @@ pop rax
 pop rax
 ```
 ![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view5.png?raw=true)
+
+and the plugin will create a new elf in the original elf's directory name `<bianry_name>_new`
+
