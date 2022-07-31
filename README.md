@@ -21,5 +21,5 @@ int main(){
     return 0;
 }
 ```
-
 the view of ida when we pull the `source` to ida
+![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view.png?raw=true)
