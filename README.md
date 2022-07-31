@@ -58,4 +58,4 @@ pop rax
 and the plugin will create a new elf in the original elf's directory name `<bianry_name>_new`
 
 the different output of `source` and `source_new`
-![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/view6.png?raw=true)
+![](https://github.com/akvo-fajro/IDA-Patch_Instruction_Plugin/blob/main/img/res.png?raw=true)
